@@ -1,0 +1,70 @@
+#contenedor
+{
+    width: 600px;
+    height: 2000px;
+    background-color: aquamarine;
+    margin: auto;
+}
+#caja1
+{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    
+}
+
+#caja2
+{
+    width: 200px;
+    height: 200px;
+    background-color: firebrick;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+   
+}
+
+#caja3
+{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    position: fixed;
+    top: 100px;
+}
+
+#caja4
+{
+    width: 400px;
+    height: 400px;
+    background-color:yellowgreen;
+    position: sticky;
+    top: 200px;
+    left: 200px;
+}
+
+#caja4-1
+{
+    width: 100px;
+    height: 100px;
+    background-color:magenta;
+    position: sticky;
+ 
+    position: relative;
+    left: 50px;
+    transform: rotate(45deg);
+}
+
+#caja4-2
+{
+    width: 100px;
+    height: 100px;
+    background-color:magenta;
+    position: relative;
+    border-radius: 100px;
+    left: 100px;
+}
